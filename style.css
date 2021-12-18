@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+  font-family: monospace;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+}
+#header1{
+    width: 100px;
+    color:rgb(12, 12, 12);
+    background-color: gold;
+    float:right;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+}
+#header2{
+    width: 100px;
+    color:rgb(17, 17, 17);
+    background-color: rgb(212, 0, 255);
+    float:right;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+}
+#header3{
+    width: 100px;
+    color:rgb(7, 7, 7);
+    background-color: rgb(0, 238, 255);
+    float:right;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+}
+p{
+    padding: 40px;
+}
+/*deckstop view*/
+@media(min-width:992px){
+    .category{ 
+        width: 30%;
+        height: auto;
+        margin-left: 35px;
+        color: rgb(138, 253, 247);
+        background-color: rgb(238, 26, 44);
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+}
+/*tablet view*/
+@media(min-width:768px) and (max-width:991px)
+{
+    .category .category1{ 
+        width: 46%;
+        height: auto;
+        margin-left: 20px;
+        color: rgb(138, 253, 247);
+        background-color: rgb(238, 26, 44);
+        margin-bottom: 20px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .category .category2{ 
+        width: 46%;
+        height: auto;
+        margin-left: 20px;
+        color: rgb(138, 253, 247);
+        background-color: rgb(238, 26, 44);
+        margin-bottom: 20px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .category .category3{ 
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+    color: rgb(138, 253, 247);
+    background-color: rgb(238, 26, 44);
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+}
+/*mobile view*/
+@media(max-width:767px){
+    .category{ 
+        width: 95%;
+        height: auto;
+        margin-left: 20px;
+        color: rgb(138, 253, 247);
+        background-color: rgb(238, 26, 44);
+        margin-bottom: 20px;
+        float: left;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+}
